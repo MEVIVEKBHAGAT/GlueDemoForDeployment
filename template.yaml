@@ -9,7 +9,7 @@ Resources:
         ScriptLocation: s3://myhandsonglue/script/glueScript.py
       DefaultArguments:
         "--TempDir": "s3://myhandsonglue/temp/"
-      GlueVersion: "2.0"
+      GlueVersion: "4.0"
       WorkerType: G.1X
       NumberOfWorkers: 3
 
